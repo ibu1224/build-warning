@@ -3,4 +3,4 @@ jobs:
     requires: [ ~commit ]
     image: node:18
     steps:
-      - warn: build.warning true
+      - warn: meta set build.warning true
